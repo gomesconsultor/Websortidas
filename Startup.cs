@@ -21,7 +21,6 @@ using ApiSortidas.Domain.Repositories;
 using ApiSortidas.Infra.Repositories;
 using ApiSortidas.Infra;
 using Microsoft.OpenApi.Models;
-using ApiSortidas.Infra;
 using ApiSortidas.Domain.Repositories.Interface.Entity;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

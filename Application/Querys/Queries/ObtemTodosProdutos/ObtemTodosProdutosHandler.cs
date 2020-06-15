@@ -26,7 +26,7 @@ namespace ApiSortidas.Application.Querys.Queries.ObtemTodosProdutos
         {
             
             return await _context.Products
-             .Include(x => x.CategoryId)
+             //
             .Select(x => new ProdutoViewModel()
             {
                 Title = x.Title,
